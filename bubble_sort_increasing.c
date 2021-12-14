@@ -7,12 +7,14 @@ void bubble_sort_increasing(int* arr,
                             const int length)
 {
     /*
-    Performs bubble sort with many swaps.
+    Performs short bubble sort with many swaps. It is referred to as
+    'short' because it doesn't go over the elements which are already 
+    sorted (i.e., j < (length - end)).
     
     Parameters
     ----------
     arr : int*
-        A sorted integer array.
+        An integer array.
         
     length : int
         Size of array.
