@@ -8,7 +8,7 @@ def short_bubble_sort_decreasing(arr):
 
   Parameters
   ----------
-  arr : ist, tuple or set
+  arr : list, tuple or set
       An array.
       
   Returns nothing.
