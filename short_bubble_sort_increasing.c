@@ -3,13 +3,15 @@
 #define TRUE 1
 #define FALSE 0
 
-void bubble_sort_increasing(int* arr,
-                            const int length)
+void short_bubble_sort_increasing(int* arr,
+                                  const int length)
 {
     /*
     Performs short bubble sort with many swaps. It is referred to as
     'short' because it doesn't go over the elements which are already 
     sorted (i.e., j < (length - end)).
+    
+    This implementation sorts in increasing order.
     
     Parameters
     ----------
