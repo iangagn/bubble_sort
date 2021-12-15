@@ -8,7 +8,7 @@ def long_bubble_sort_increasing(arr):
 
   Parameters
   ----------
-  arr : ist, tuple or set
+  arr : list, tuple or set
       An array.
       
   Returns nothing.
